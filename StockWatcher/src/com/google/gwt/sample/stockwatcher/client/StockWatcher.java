@@ -123,7 +123,7 @@ public class StockWatcher implements EntryPoint {
 			updateTable(prices[i]);
 		}
 		
-	    // Display timestamp showing last refresh.
+	    // Display time stamp showing last refresh.
 	    lastUpdatedLabel.setText("Last update : "
 	        + DateTimeFormat.getMediumDateTimeFormat().format(new Date()));
 	}
